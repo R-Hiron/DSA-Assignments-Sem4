@@ -15,7 +15,7 @@ public class MovieTheater {
     private void initializeSeatingChart() {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                seats[i][j] = 'A'; // 'A' for Available
+                seats[i][j] = 'A'; 
             }
         }
     }
