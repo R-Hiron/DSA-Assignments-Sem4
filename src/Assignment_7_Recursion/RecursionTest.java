@@ -4,7 +4,7 @@ public class RecursionTest {
     public static void main(String[] args) {
         System.out.println("""
         ============================================
-                    Recursion Test
+                       Recursion Test
         ============================================""");
         int[] DigitSumTestNums = {112, 10, 12, 110, 1234};
         int[] expectedSums = {4, 1, 3, 2, 10};
@@ -17,7 +17,7 @@ public class RecursionTest {
         System.out.println("============================================\n");
         System.out.println("""
         ============================================
-                    Decimal to Binary Test
+                   Decimal to Binary Test
         ============================================""");
         int[] decimalTestNums = {12, 5, 7, 10, 0};
         String[] expectedBinaries = {"1100", "101", "111", "1010", "0"};

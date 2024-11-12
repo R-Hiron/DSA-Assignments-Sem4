@@ -6,13 +6,13 @@ public class RecursionMain {
         if (n == 0) {
             return 0;
         }
-        return n % 10 + sumOfDigits(n / 10);
+        return n % 10 + sumOfDigits(n/10);
     }
 
     public static String decimalToBinary(int decimal) {
         if (decimal == 0) {
             return "";
         }
-        return decimalToBinary(decimal / 2) + (decimal % 2);
+        return decimalToBinary(decimal/2) + (decimal%2);
     }
 }
